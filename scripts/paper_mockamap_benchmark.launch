@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- ====================================================== -->
+  <!-- Map profile                                            -->
+  <!-- ====================================================== -->
+
+  <arg name="map_seed" default="42"/>
+  <arg name="map_type" default="1"/>
+
+  <arg name="complexity" default="0.025"/>
+  <arg name="fill" default="0.30"/>
+  <arg name="fractal" default="1"/>
+  <arg name="attenuation" default="0.1"/>
+
+  <arg name="width_min" default="0.6"/>
+  <arg name="width_max" default="1.5"/>
+  <arg name="obstacle_number" default="10"/>
+
+  <arg name="road_width" default="3.0"/>
+  <arg name="add_wall_x" default="0"/>
+  <arg name="add_wall_y" default="0"/>
+  <arg name="maze_type" default="1"/>
+
+
+  <!-- ====================================================== -->
+  <!-- Route / benchmark                                      -->
+  <!-- ====================================================== -->
+
+  <arg name="route_seed" default="0"/>
+  <arg name="rrt_timeout" default="0.02"/>
+
+  <arg name="fixed_start_goal_enabled" default="true"/>
+
+  <arg name="fixed_start_x" default="6.4372711181640625"/>
+  <arg name="fixed_start_y" default="23.116613388061523"/>
+  <arg name="fixed_start_z" default="0.5"/>
+
+  <arg name="fixed_goal_x" default="-4.582256317138672"/>
+  <arg name="fixed_goal_y" default="-17.233434677124023"/>
+  <arg name="fixed_goal_z" default="3.494147776291897"/>
+
+  <arg name="experiment_log_enabled" default="true"/>
+  <arg name="experiment_log_directory"
+       default="/tmp/tf_paper_exp"/>
+  <arg name="experiment_tag"
+       default="paper_e1e2_production"/>
+
+  <arg name="benchmark_enabled" default="true"/>
+  <arg name="benchmark_case_id" default=""/>
+  <arg name="benchmark_environment_family" default="perlin3d"/>
+  <arg name="benchmark_difficulty" default="easy"/>
+  <arg name="benchmark_repeat_id" default="0"/>
+  <arg name="benchmark_method" default="proposed"/>
+  <arg name="benchmark_variant" default="csgn_active_exact"/>
+
+  <arg name="benchmark_route_replay_enabled" default="false"/>
+  <arg name="benchmark_route_replay_file" default=""/>
+
+  <arg name="benchmark_route_save_enabled" default="false"/>
+  <arg name="benchmark_route_save_file" default=""/>
+
+
+  <!-- ====================================================== -->
+  <!-- Map generator                                          -->
+  <!-- ====================================================== -->
+
+  <node pkg="mockamap"
+        type="mockamap_node"
+        name="mockamap_node"
+        output="screen">
+
+    <param name="seed"
+           type="int"
+           value="$(arg map_seed)"/>
+
+    <param name="update_freq"
+           type="double"
+           value="1.0"/>
+
+    <param name="resolution"
+           type="double"
+           value="0.25"/>
+
+    <param name="x_length"
+           type="int"
+           value="50"/>
+
+    <param name="y_length"
+           type="int"
+           value="50"/>
+
+    <param name="z_length"
+           type="int"
+           value="5"/>
+
+    <param name="type"
+           type="int"
+           value="$(arg map_type)"/>
+
+    <param name="complexity"
+           type="double"
+           value="$(arg complexity)"/>
+
+    <param name="fill"
+           type="double"
+           value="$(arg fill)"/>
+
+    <param name="fractal"
+           type="int"
+           value="$(arg fractal)"/>
+
+    <param name="attenuation"
+           type="double"
+           value="$(arg attenuation)"/>
+
+    <param name="width_min"
+           type="double"
+           value="$(arg width_min)"/>
+
+    <param name="width_max"
+           type="double"
+           value="$(arg width_max)"/>
+
+    <param name="obstacle_number"
+           type="int"
+           value="$(arg obstacle_number)"/>
+
+    <param name="road_width"
+           type="double"
+           value="$(arg road_width)"/>
+
+    <param name="add_wall_x"
+           type="int"
+           value="$(arg add_wall_x)"/>
+
+    <param name="add_wall_y"
+           type="int"
+           value="$(arg add_wall_y)"/>
+
+    <param name="maze_type"
+           type="int"
+           value="$(arg maze_type)"/>
+
+    <remap from="/mock_map"
+           to="/voxel_map"/>
+
+  </node>
+
+
+  <!-- ====================================================== -->
+  <!-- Frozen GCOPTER                                         -->
+  <!-- ====================================================== -->
+
+  <node pkg="gcopter"
+        type="global_planning"
+        name="global_planning_node"
+        output="screen">
+
+    <rosparam file="$(find gcopter)/config/global_planning.yaml"
+              command="load"/>
+
+    <param name="TimeoutRRT"
+           value="$(arg rrt_timeout)"
+           type="double"/>
+
+    <param name="Experiment/LogEnabled"
+           value="$(arg experiment_log_enabled)"
+           type="bool"/>
+
+    <param name="Experiment/LogDirectory"
+           value="$(arg experiment_log_directory)"
+           type="string"/>
+
+    <param name="Experiment/Tag"
+           value="$(arg experiment_tag)"
+           type="string"/>
+
+    <param name="Experiment/MapSeed"
+           value="$(arg map_seed)"
+           type="int"/>
+
+    <param name="Experiment/RouteSeed"
+           value="$(arg route_seed)"
+           type="int"/>
+
+    <param name="Experiment/FixedStartGoalEnabled"
+           value="$(arg fixed_start_goal_enabled)"
+           type="bool"/>
+
+    <param name="Experiment/FixedStartX"
+           value="$(arg fixed_start_x)"
+           type="double"/>
+
+    <param name="Experiment/FixedStartY"
+           value="$(arg fixed_start_y)"
+           type="double"/>
+
+    <param name="Experiment/FixedStartZ"
+           value="$(arg fixed_start_z)"
+           type="double"/>
+
+    <param name="Experiment/FixedGoalX"
+           value="$(arg fixed_goal_x)"
+           type="double"/>
+
+    <param name="Experiment/FixedGoalY"
+           value="$(arg fixed_goal_y)"
+           type="double"/>
+
+    <param name="Experiment/FixedGoalZ"
+           value="$(arg fixed_goal_z)"
+           type="double"/>
+
+    <param name="Corridor/Method"
+           value="firi"
+           type="string"/>
+
+    <param name="Corridor/AllowFallback"
+           value="false"
+           type="bool"/>
+
+    <param name="Benchmark/Enabled"
+           value="$(arg benchmark_enabled)"
+           type="bool"/>
+
+    <param name="Benchmark/CaseId"
+           value="$(arg benchmark_case_id)"
+           type="string"/>
+
+    <param name="Benchmark/EnvironmentFamily"
+           value="$(arg benchmark_environment_family)"
+           type="string"/>
+
+    <param name="Benchmark/Difficulty"
+           value="$(arg benchmark_difficulty)"
+           type="string"/>
+
+    <param name="Benchmark/RepeatId"
+           value="$(arg benchmark_repeat_id)"
+           type="int"/>
+
+    <param name="Benchmark/Method"
+           value="$(arg benchmark_method)"
+           type="string"/>
+
+    <param name="Benchmark/Variant"
+           value="$(arg benchmark_variant)"
+           type="string"/>
+
+    <param name="Benchmark/RouteReplayEnabled"
+           value="$(arg benchmark_route_replay_enabled)"
+           type="bool"/>
+
+    <param name="Benchmark/RouteReplayFile"
+           value="$(arg benchmark_route_replay_file)"
+           type="string"/>
+
+    <param name="Benchmark/RouteSaveEnabled"
+           value="$(arg benchmark_route_save_enabled)"
+           type="bool"/>
+
+    <param name="Benchmark/RouteSaveFile"
+           value="$(arg benchmark_route_save_file)"
+           type="string"/>
+
+  </node>
+
+</launch>

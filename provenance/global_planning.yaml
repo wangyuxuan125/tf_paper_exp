@@ -1,0 +1,92 @@
+MapTopic:                   '/voxel_map'
+
+TargetTopic:                '/move_base_simple/goal'
+
+DilateRadius:               0.5
+
+VoxelWidth:                 0.25
+
+MapBound:                   [-25.0, 25.0, -25.0, 25.0, 0.0, 5.0]
+
+TimeoutRRT:                 0.02
+
+MaxVelMag:                  4.0
+
+MaxBdrMag:                  2.1
+
+MaxTiltAngle:               1.05
+
+MinThrust:                  2.0
+
+MaxThrust:                  12.0
+
+VehicleMass:                0.61
+
+GravAcc:                    9.8
+
+HorizDrag:                  0.70
+
+VertDrag:                   0.80
+
+ParasDrag:                  0.01
+
+SpeedEps:                   0.0001
+
+WeightT:                    20.0
+
+ChiVec:                     [1.0e+4, 1.0e+4, 1.0e+4, 1.0e+4, 1.0e+5]
+
+SmoothingEps:               1.0e-2
+
+IntegralIntervs:            16
+
+RelCostTol:                 1.0e-5
+
+Experiment:
+  LogEnabled:              true
+  LogDirectory:            '/tmp/tf_sfc_results/gcopter'
+  Tag:                     'default'
+  RouteSeed:               0
+  FixedStartGoalEnabled:   false
+  # Set these only after confirming both points are free in the GCOPTER map.
+  FixedStartX:             0.0
+  FixedStartY:             0.0
+  FixedStartZ:             1.0
+  FixedGoalX:              0.0
+  FixedGoalY:              0.0
+  FixedGoalZ:              1.0
+
+Corridor:
+  # firi | tf_firi | ellipsoid_decomp | obb | tf_sfc
+  Method:                  'firi'
+  AllowFallback:           false
+
+TfSfc:
+  DirectionMode:           1
+  SamplesPerSegment:       5
+  MaxFaces:                12
+  MaxObsFaces:             6
+  SafetyMargin:            0.05
+  MaxInflationDistance:    1.0
+  InflationStep:           0.10
+  MinOverlapRadius:        0.04
+  MaxSegmentLength:        1.0
+
+TfFiri:
+  # First paper-stage TF-FIRI conditions native FIRI on the route/velocity
+  # direction.  MINCO sensitivity-conditioned refinement is a separate stage.
+  MaxFaces:                24
+  DirectionalWidthWeight: 1.0
+  FaceCountWeight:        0.25
+  CandidatePoolSize:      8
+  Progress:                7.0
+  Range:                   3.0
+
+# Liu et al. (ICRA 2017) / DecompUtil baseline. The three local-bbox values
+# follow DecompUtil's segment frame: forward extension, lateral and vertical.
+Decomp:
+  LocalBBoxForward:        0.5
+  LocalBBoxLateral:        3.0
+  LocalBBoxVertical:       3.0
+  MaxSegmentLength:        3.0
+  MinOverlapRadius:        0.01

@@ -1,0 +1,512 @@
+[0m[ INFO] [1788753414.740983336]: generating maze with width 20 , height 20[0m
+[0m[ INFO] [1788753414.741397149]: entered 5*5 mode[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.741526929]: generating maze with width 13 , height 1[0m
+[0m[ INFO] [1788753414.741530552]: finished generating maze with width 13 , height 1[0m
+[0m[ INFO] [1788753414.741533601]: generating maze with width 6 , height 1[0m
+[0m[ INFO] [1788753414.741536925]: finished generating maze with width 6 , height 1[0m
+[0m[ INFO] [1788753414.741539959]: generating maze with width 13 , height 18[0m
+[0m[ INFO] [1788753414.741542956]: entered 5*5 mode[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.741657381]: generating maze with width 5 , height 4[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.741777883]: finished generating maze with width 5 , height 4[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.741895741]: generating maze with width 7 , height 4[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.742014897]: finished generating maze with width 7 , height 4[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.742133903]: generating maze with width 5 , height 13[0m
+[0m[ INFO] [1788753414.742136932]: entered 5*5 mode[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.742252681]: generating maze with width 1 , height 6[0m
+[0m[ INFO] [1788753414.742255795]: finished generating maze with width 1 , height 6[0m
+[0m[ INFO] [1788753414.742258755]: generating maze with width 3 , height 6[0m
+[0m[ INFO] [1788753414.742262295]: entered 3*4+ mode[0m
+[0m[ INFO] [1788753414.742265311]: generating maze with width 1 , height 6[0m
+[0m[ INFO] [1788753414.742268252]: finished generating maze with width 1 , height 6[0m
+[0m[ INFO] [1788753414.742271096]: generating maze with width 3 , height 6[0m
+[0m[ INFO] [1788753414.742274134]: entered 3*4+ mode[0m
+[0m[ INFO] [1788753414.742277246]: finished generating maze with width 5 , height 13[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+0 1 0 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.742391024]: generating maze with width 7 , height 13[0m
+[0m[ INFO] [1788753414.742394034]: entered 5*5 mode[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+0 1 0 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.742512194]: generating maze with width 4 , height 2[0m
+[0m[ INFO] [1788753414.742515159]: finished generating maze with width 4 , height 2[0m
+[0m[ INFO] [1788753414.742517948]: generating maze with width 2 , height 2[0m
+[0m[ INFO] [1788753414.742520861]: finished generating maze with width 2 , height 2[0m
+[0m[ INFO] [1788753414.742523784]: generating maze with width 4 , height 10[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+0 1 0 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 1 1 1 1 1 1 1 1 0
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.742640234]: finished generating maze with width 4 , height 10[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+0 1 0 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 1 1 1 1 1 1 1 1 0
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.742753315]: generating maze with width 2 , height 10[0m
+[0m[ INFO] [1788753414.742756222]: finished generating maze with width 2 , height 10[0m
+[0m[ INFO] [1788753414.742759112]: finished generating maze with width 7 , height 13[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+0 1 0 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 1 1 1 1 1 1 1 1 0
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.742873008]: finished generating maze with width 13 , height 18[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+0 1 0 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 1 1 1 1 1 1 1 1 0
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.742986998]: generating maze with width 6 , height 18[0m
+[0m[ INFO] [1788753414.742990029]: entered 5*5 mode[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+0 1 0 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 1 1 1 1 1 1 1 1 0
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.743107861]: generating maze with width 3 , height 9[0m
+[0m[ INFO] [1788753414.743110778]: entered 3*4+ mode[0m
+[0m[ INFO] [1788753414.743114990]: generating maze with width 2 , height 9[0m
+[0m[ INFO] [1788753414.743118789]: finished generating maze with width 2 , height 9[0m
+[0m[ INFO] [1788753414.743121637]: generating maze with width 3 , height 8[0m
+[0m[ INFO] [1788753414.743124758]: entered 3*4+ mode[0m
+[0m[ INFO] [1788753414.743127719]: generating maze with width 2 , height 8[0m
+[0m[ INFO] [1788753414.743130585]: finished generating maze with width 2 , height 8[0m
+[0m[ INFO] [1788753414.743133368]: finished generating maze with width 6 , height 18[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+0 1 0 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 1 1 1 1 1 1 1 1 0
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753414.743250092]: finished generating maze with width 20 , height 20[0m
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+0 1 0 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 1 1 1 1 1 1 1 1 0
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0
+0 1 0 1 0 0 1 1 1 1 0 1 1 1 1 1 1 1 1 0
+0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 1 1 1 1 1 1 1 1 0
+0 1 0 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0
+0 1 1 1 1 0 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 0 0 0 1 1 1 1 1 1 1
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+0 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0
+[0m[ INFO] [1788753416.770113375]: TF_ROUTE_SOURCE case_id=maze2d_medium_m132006_r232006 mode=generated route_file=/home/wyx/tf_route_bank/medium/maze2d/maze2d_medium_m132006_r232006.route fingerprint=1dc039f1d92df5bb points=11 segments=10 length_m=45.692 max_segment_m=13.9923 validation_success=1 validation_samples=747 validation_ms=0.004421 route_io_ms=0.099471 path_search_ms=1000.9[0m
+[0m[ INFO] [1788753416.797672533]: TF_NOMINAL_CERT success=0 mapping_valid=1 certificate_valid=1 contained=0 traj_pieces=7 corridors=7 faces_checked=90 max_signed_violation_m=2.52956e-05 min_margin_m=-2.52956e-05 worst_piece=3 worst_face=5 worst_tau=0.181515 worst_t=0.38065 cert_ms=0.025817[0m
+[0m[ INFO] [1788753416.797689283]: TF_NOMINAL_TIMING path_ms=1000.9 corridor_ms=7.34737 setup_ms=0.146453 opt_ms=18.7249 nominal_after_route_ms=26.2187 cert_ms=0.025817[0m
+[0m[ INFO] [1788753414.748558441]: finish: infill 0.400000%[0m
+[31mWARNING: disk usage in log directory [/home/wyx/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+... logging to /home/wyx/.ros/log/2a0b3bc2-aa70-11f1-b0e6-f943f12ceaab/roslaunch-wyx-28197.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;/home/wyx/tf_paper_exp/scripts/paper_mockamap_benchmark.launch
+[1mstarted roslaunch server http://wyx:40235/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /global_planning_node/Benchmark/CaseId: maze2d_medium_m13...
+ * /global_planning_node/Benchmark/Difficulty: medium
+ * /global_planning_node/Benchmark/Enabled: False
+ * /global_planning_node/Benchmark/EnvironmentFamily: maze2d
+ * /global_planning_node/Benchmark/Method: proposed
+ * /global_planning_node/Benchmark/RepeatId: 0
+ * /global_planning_node/Benchmark/RouteReplayEnabled: False
+ * /global_planning_node/Benchmark/RouteReplayFile: 
+ * /global_planning_node/Benchmark/RouteSaveEnabled: True
+ * /global_planning_node/Benchmark/RouteSaveFile: /home/wyx/tf_rout...
+ * /global_planning_node/Benchmark/Variant: csgn_active_exact
+ * /global_planning_node/ChiVec: [10000.0, 10000.0...
+ * /global_planning_node/Corridor/AllowFallback: False
+ * /global_planning_node/Corridor/Method: firi
+ * /global_planning_node/Decomp/LocalBBoxForward: 0.5
+ * /global_planning_node/Decomp/LocalBBoxLateral: 3.0
+ * /global_planning_node/Decomp/LocalBBoxVertical: 3.0
+ * /global_planning_node/Decomp/MaxSegmentLength: 3.0
+ * /global_planning_node/Decomp/MinOverlapRadius: 0.01
+ * /global_planning_node/DilateRadius: 0.5
+ * /global_planning_node/Experiment/FixedGoalX: -4.582256317138672
+ * /global_planning_node/Experiment/FixedGoalY: -17.233434677124023
+ * /global_planning_node/Experiment/FixedGoalZ: 3.494147776291897
+ * /global_planning_node/Experiment/FixedStartGoalEnabled: True
+ * /global_planning_node/Experiment/FixedStartX: 6.4372711181640625
+ * /global_planning_node/Experiment/FixedStartY: 23.116613388061523
+ * /global_planning_node/Experiment/FixedStartZ: 0.5
+ * /global_planning_node/Experiment/LogDirectory: /tmp/tf_paper_exp
+ * /global_planning_node/Experiment/LogEnabled: False
+ * /global_planning_node/Experiment/MapSeed: 132006
+ * /global_planning_node/Experiment/RouteSeed: 232006
+ * /global_planning_node/Experiment/Tag: paper_e1e2_produc...
+ * /global_planning_node/GravAcc: 9.8
+ * /global_planning_node/HorizDrag: 0.7
+ * /global_planning_node/IntegralIntervs: 16
+ * /global_planning_node/MapBound: [-25.0, 25.0, -25...
+ * /global_planning_node/MapTopic: /voxel_map
+ * /global_planning_node/MaxBdrMag: 2.1
+ * /global_planning_node/MaxThrust: 12.0
+ * /global_planning_node/MaxTiltAngle: 1.05
+ * /global_planning_node/MaxVelMag: 4.0
+ * /global_planning_node/MinThrust: 2.0
+ * /global_planning_node/ParasDrag: 0.01
+ * /global_planning_node/RelCostTol: 1e-05
+ * /global_planning_node/SmoothingEps: 0.01
+ * /global_planning_node/SpeedEps: 0.0001
+ * /global_planning_node/TargetTopic: /move_base_simple...
+ * /global_planning_node/TfFiri/CandidatePoolSize: 8
+ * /global_planning_node/TfFiri/DirectionalWidthWeight: 1.0
+ * /global_planning_node/TfFiri/FaceCountWeight: 0.25
+ * /global_planning_node/TfFiri/MaxFaces: 24
+ * /global_planning_node/TfFiri/Progress: 7.0
+ * /global_planning_node/TfFiri/Range: 3.0
+ * /global_planning_node/TfSfc/DirectionMode: 1
+ * /global_planning_node/TfSfc/InflationStep: 0.1
+ * /global_planning_node/TfSfc/MaxFaces: 12
+ * /global_planning_node/TfSfc/MaxInflationDistance: 1.0
+ * /global_planning_node/TfSfc/MaxObsFaces: 6
+ * /global_planning_node/TfSfc/MaxSegmentLength: 1.0
+ * /global_planning_node/TfSfc/MinOverlapRadius: 0.04
+ * /global_planning_node/TfSfc/SafetyMargin: 0.05
+ * /global_planning_node/TfSfc/SamplesPerSegment: 5
+ * /global_planning_node/TimeoutRRT: 1.0
+ * /global_planning_node/VehicleMass: 0.61
+ * /global_planning_node/VertDrag: 0.8
+ * /global_planning_node/VoxelWidth: 0.25
+ * /global_planning_node/WeightT: 20.0
+ * /mockamap_node/add_wall_x: 0
+ * /mockamap_node/add_wall_y: 0
+ * /mockamap_node/attenuation: 0.1
+ * /mockamap_node/complexity: 0.025
+ * /mockamap_node/fill: 0.3
+ * /mockamap_node/fractal: 1
+ * /mockamap_node/maze_type: 1
+ * /mockamap_node/obstacle_number: 10
+ * /mockamap_node/resolution: 0.25
+ * /mockamap_node/road_width: 2.5
+ * /mockamap_node/seed: 132006
+ * /mockamap_node/type: 3
+ * /mockamap_node/update_freq: 1.0
+ * /mockamap_node/width_max: 1.5
+ * /mockamap_node/width_min: 0.6
+ * /mockamap_node/x_length: 50
+ * /mockamap_node/y_length: 50
+ * /mockamap_node/z_length: 5
+ * /rosdistro: noetic
+ * /rosversion: 1.17.0
+
+NODES
+  /
+    global_planning_node (gcopter/global_planning)
+    mockamap_node (mockamap/mockamap_node)
+
+auto-starting new master
+[1mprocess[master]: started with pid [28227][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/wyx/tf_paper_exp/scripts/paper_mockamap_benchmark.launch http://localhost:11311
+[1msetting /run_id to 2a0b3bc2-aa70-11f1-b0e6-f943f12ceaab[0m
+[1mprocess[rosout-1]: started with pid [28256][0m
+started core service [/rosout]
+[1mprocess[mockamap_node-2]: started with pid [28263][0m
+[1mprocess[global_planning_node-3]: started with pid [28264][0m
+[global_planning_node-3] killing on exit
+[mockamap_node-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

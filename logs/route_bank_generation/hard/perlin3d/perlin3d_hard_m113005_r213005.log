@@ -1,0 +1,125 @@
+[31m[ERROR] [1788753290.295426985]: Fixed experiment start or goal is occupied after dilation.[0m
+[0m[ INFO] [1788753289.229259720]: threshold: 0.056225[0m
+[0m[ INFO] [1788753289.258817334]: the number of points before optimization is 272000[0m
+[0m[ INFO] [1788753289.260042665]: finish: infill 0.340000%[0m
+[31mWARNING: disk usage in log directory [/home/wyx/.ros/log] is over 1GB.
+It's recommended that you use the 'rosclean' command.[0m
+... logging to /home/wyx/.ros/log/df30b2a8-aa6f-11f1-b0e6-f943f12ceaab/roslaunch-wyx-26919.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+]2;/home/wyx/tf_paper_exp/scripts/paper_mockamap_benchmark.launch
+[1mstarted roslaunch server http://wyx:46641/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /global_planning_node/Benchmark/CaseId: perlin3d_hard_m11...
+ * /global_planning_node/Benchmark/Difficulty: hard
+ * /global_planning_node/Benchmark/Enabled: False
+ * /global_planning_node/Benchmark/EnvironmentFamily: perlin3d
+ * /global_planning_node/Benchmark/Method: proposed
+ * /global_planning_node/Benchmark/RepeatId: 0
+ * /global_planning_node/Benchmark/RouteReplayEnabled: False
+ * /global_planning_node/Benchmark/RouteReplayFile: 
+ * /global_planning_node/Benchmark/RouteSaveEnabled: True
+ * /global_planning_node/Benchmark/RouteSaveFile: /home/wyx/tf_rout...
+ * /global_planning_node/Benchmark/Variant: csgn_active_exact
+ * /global_planning_node/ChiVec: [10000.0, 10000.0...
+ * /global_planning_node/Corridor/AllowFallback: False
+ * /global_planning_node/Corridor/Method: firi
+ * /global_planning_node/Decomp/LocalBBoxForward: 0.5
+ * /global_planning_node/Decomp/LocalBBoxLateral: 3.0
+ * /global_planning_node/Decomp/LocalBBoxVertical: 3.0
+ * /global_planning_node/Decomp/MaxSegmentLength: 3.0
+ * /global_planning_node/Decomp/MinOverlapRadius: 0.01
+ * /global_planning_node/DilateRadius: 0.5
+ * /global_planning_node/Experiment/FixedGoalX: -4.582256317138672
+ * /global_planning_node/Experiment/FixedGoalY: -17.233434677124023
+ * /global_planning_node/Experiment/FixedGoalZ: 3.494147776291897
+ * /global_planning_node/Experiment/FixedStartGoalEnabled: True
+ * /global_planning_node/Experiment/FixedStartX: 6.4372711181640625
+ * /global_planning_node/Experiment/FixedStartY: 23.116613388061523
+ * /global_planning_node/Experiment/FixedStartZ: 0.5
+ * /global_planning_node/Experiment/LogDirectory: /tmp/tf_paper_exp
+ * /global_planning_node/Experiment/LogEnabled: False
+ * /global_planning_node/Experiment/MapSeed: 113005
+ * /global_planning_node/Experiment/RouteSeed: 213005
+ * /global_planning_node/Experiment/Tag: paper_e1e2_produc...
+ * /global_planning_node/GravAcc: 9.8
+ * /global_planning_node/HorizDrag: 0.7
+ * /global_planning_node/IntegralIntervs: 16
+ * /global_planning_node/MapBound: [-25.0, 25.0, -25...
+ * /global_planning_node/MapTopic: /voxel_map
+ * /global_planning_node/MaxBdrMag: 2.1
+ * /global_planning_node/MaxThrust: 12.0
+ * /global_planning_node/MaxTiltAngle: 1.05
+ * /global_planning_node/MaxVelMag: 4.0
+ * /global_planning_node/MinThrust: 2.0
+ * /global_planning_node/ParasDrag: 0.01
+ * /global_planning_node/RelCostTol: 1e-05
+ * /global_planning_node/SmoothingEps: 0.01
+ * /global_planning_node/SpeedEps: 0.0001
+ * /global_planning_node/TargetTopic: /move_base_simple...
+ * /global_planning_node/TfFiri/CandidatePoolSize: 8
+ * /global_planning_node/TfFiri/DirectionalWidthWeight: 1.0
+ * /global_planning_node/TfFiri/FaceCountWeight: 0.25
+ * /global_planning_node/TfFiri/MaxFaces: 24
+ * /global_planning_node/TfFiri/Progress: 7.0
+ * /global_planning_node/TfFiri/Range: 3.0
+ * /global_planning_node/TfSfc/DirectionMode: 1
+ * /global_planning_node/TfSfc/InflationStep: 0.1
+ * /global_planning_node/TfSfc/MaxFaces: 12
+ * /global_planning_node/TfSfc/MaxInflationDistance: 1.0
+ * /global_planning_node/TfSfc/MaxObsFaces: 6
+ * /global_planning_node/TfSfc/MaxSegmentLength: 1.0
+ * /global_planning_node/TfSfc/MinOverlapRadius: 0.04
+ * /global_planning_node/TfSfc/SafetyMargin: 0.05
+ * /global_planning_node/TfSfc/SamplesPerSegment: 5
+ * /global_planning_node/TimeoutRRT: 1.0
+ * /global_planning_node/VehicleMass: 0.61
+ * /global_planning_node/VertDrag: 0.8
+ * /global_planning_node/VoxelWidth: 0.25
+ * /global_planning_node/WeightT: 20.0
+ * /mockamap_node/add_wall_x: 0
+ * /mockamap_node/add_wall_y: 0
+ * /mockamap_node/attenuation: 0.1
+ * /mockamap_node/complexity: 0.025
+ * /mockamap_node/fill: 0.34
+ * /mockamap_node/fractal: 1
+ * /mockamap_node/maze_type: 1
+ * /mockamap_node/obstacle_number: 10
+ * /mockamap_node/resolution: 0.25
+ * /mockamap_node/road_width: 3.0
+ * /mockamap_node/seed: 113005
+ * /mockamap_node/type: 1
+ * /mockamap_node/update_freq: 1.0
+ * /mockamap_node/width_max: 1.5
+ * /mockamap_node/width_min: 0.6
+ * /mockamap_node/x_length: 50
+ * /mockamap_node/y_length: 50
+ * /mockamap_node/z_length: 5
+ * /rosdistro: noetic
+ * /rosversion: 1.17.0
+
+NODES
+  /
+    global_planning_node (gcopter/global_planning)
+    mockamap_node (mockamap/mockamap_node)
+
+auto-starting new master
+[1mprocess[master]: started with pid [26946][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/wyx/tf_paper_exp/scripts/paper_mockamap_benchmark.launch http://localhost:11311
+[1msetting /run_id to df30b2a8-aa6f-11f1-b0e6-f943f12ceaab[0m
+[1mprocess[rosout-1]: started with pid [26975][0m
+started core service [/rosout]
+[1mprocess[mockamap_node-2]: started with pid [26982][0m
+[1mprocess[global_planning_node-3]: started with pid [26983][0m
+[global_planning_node-3] killing on exit
+[mockamap_node-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

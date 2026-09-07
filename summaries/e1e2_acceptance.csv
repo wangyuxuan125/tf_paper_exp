@@ -1,0 +1,2 @@
+case_id,structural_valid,strict_valid,e1_mapping_rows,e1_safe_rows,e2_setup_success,e2_opt_success,e2_metrics_valid,e2_soft_exact_contained,proposed_final_exact,errors
+dev_mockamap_m42_r3,1,1,16,16,4,4,4,1,1,

@@ -1,0 +1,10 @@
+environment_family,difficulty,map_type,complexity,fill,fractal,attenuation,width_min,width_max,obstacle_number,road_width,add_wall_x,add_wall_y,maze_type
+perlin3d,easy,1,0.025,0.22,1,0.1,0.6,1.5,10,3.0,0,0,1
+perlin3d,medium,1,0.025,0.28,1,0.1,0.6,1.5,10,3.0,0,0,1
+perlin3d,hard,1,0.025,0.34,1,0.1,0.6,1.5,10,3.0,0,0,1
+random_boxes,easy,2,0.025,0.30,1,0.1,0.6,1.5,40,3.0,0,0,1
+random_boxes,medium,2,0.025,0.30,1,0.1,0.6,1.5,70,3.0,0,0,1
+random_boxes,hard,2,0.025,0.30,1,0.1,0.6,1.5,100,3.0,0,0,1
+maze2d,easy,3,0.025,0.30,1,0.1,0.6,1.5,10,3.0,0,0,1
+maze2d,medium,3,0.025,0.30,1,0.1,0.6,1.5,10,2.5,0,0,1
+maze2d,hard,3,0.025,0.30,1,0.1,0.6,1.5,10,2.0,0,0,1
