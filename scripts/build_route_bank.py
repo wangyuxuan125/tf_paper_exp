@@ -390,7 +390,8 @@ def main():
                 route_file.exists()
                 and route_file_is_valid(route_file)
             ):
-                valid_count += 1
+                # This route was already counted in `existing`.
+                # Only advance the deterministic seed cursor.
                 attempt += 1
                 continue
 
