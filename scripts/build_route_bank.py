@@ -38,6 +38,19 @@ GOAL = (
 MIN_ROUTE_POINTS = 3
 MAX_ROUTE_POINTS = 64
 
+def route_point_count_is_valid(point_count):
+    return (
+        MIN_ROUTE_POINTS
+        <= point_count
+        <= MAX_ROUTE_POINTS
+    )
+
+
+def route_file_is_valid(path):
+    return route_point_count_is_valid(
+        len(read_route(path))
+    )
+
 def read_profiles():
     with PROFILE_FILE.open(newline="") as f:
         return list(csv.DictReader(f))
@@ -204,7 +217,7 @@ def launch_attempt(
                 route_file
             )
 
-            if len(points) >= 2:
+            if len(points) >= MIN_ROUTE_POINTS:
                 success = True
                 break
 
@@ -221,8 +234,9 @@ def launch_attempt(
 
     route_accepted = (
         success
-        and point_count >= MIN_ROUTE_POINTS
-        and point_count <= MAX_ROUTE_POINTS
+        and route_point_count_is_valid(
+            point_count
+        )
     )
 
     if not route_accepted:
@@ -322,7 +336,7 @@ def main():
         for path in sorted(
             route_dir.glob("*.route")
         ):
-            if len(read_route(path)) >= 2:
+            if route_file_is_valid(path):
                 existing.append(path)
 
         valid_count = len(existing)
@@ -374,9 +388,7 @@ def main():
 
             if (
                 route_file.exists()
-                and len(
-                    read_route(route_file)
-                ) >= 2
+                and route_file_is_valid(route_file)
             ):
                 valid_count += 1
                 attempt += 1

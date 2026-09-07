@@ -14,6 +14,8 @@ LAUNCH_FILE = Path(
     "/home/wyx/tf_paper_exp/scripts/paper_mockamap_benchmark.launch"
 )
 
+MIN_ROUTE_POINTS = 3
+MAX_ROUTE_POINTS = 64
 
 def load_profiles():
     with PROFILE_FILE.open(newline="") as f:
@@ -116,9 +118,18 @@ def main():
 
         profile = profiles.get(key)
 
+        route_qc_valid = (
+            MIN_ROUTE_POINTS
+            <= len(points)
+            <= MAX_ROUTE_POINTS
+        )
+
         runnable = (
             1
-            if profile is not None
+            if (
+                profile is not None
+                and route_qc_valid
+            )
             else 0
         )
 
@@ -135,6 +146,7 @@ def main():
             "route_file": str(path),
             "route_point_count": len(points),
             "route_segment_count": len(points) - 1,
+            "route_qc_valid": int(route_qc_valid),
             "start_x": points[0][0],
             "start_y": points[0][1],
             "start_z": points[0][2],
@@ -185,6 +197,7 @@ def main():
         "route_file",
         "route_point_count",
         "route_segment_count",
+        "route_qc_valid",
         "start_x",
         "start_y",
         "start_z",

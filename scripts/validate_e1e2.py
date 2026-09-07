@@ -49,7 +49,15 @@ def main():
 
     root = Path(args.result_root)
 
+    if not root.exists():
+        raise RuntimeError(
+            "Result root does not exist: "
+            f"{root}. "
+            "The E1/E2 runner did not produce results."
+        )
+
     summary_rows = []
+
     structural_failures = 0
     strict_failures = 0
 
@@ -156,17 +164,6 @@ def main():
             for row in e1
         )
 
-        if (
-            actual_overlap_rows !=
-            expected_overlap_rows
-        ):
-            errors.append(
-                "e1_overlap_rows="
-                f"{actual_overlap_rows}"
-                "_expected="
-                f"{expected_overlap_rows}"
-            )
-
         # -----------------------------
         # Structural E2 checks
         # -----------------------------
@@ -269,6 +266,7 @@ def main():
             structural_valid
             and e1_mapping == expected_e1_rows
             and e1_safe == expected_e1_rows
+            and actual_overlap_rows == expected_overlap_rows
             and e2_setup == 4
             and e2_opt == 4
             and e2_metrics == 4
